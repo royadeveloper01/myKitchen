@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('pics/kitchen.jpg');
+    background-size: 400px;
+
+}
+#nav{
+    display: inline-block;
+}
+
+main h1{
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px rgb(138, 8, 8);
+}
+main h3{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+#logo{
+    width: 60px;
+    height: 30px;
+    float: left;
+}
+.card{
+    border: 3px solid red;
+    text-align: center;    
+}
+#menu{
+    background-image: url(pics/plate-of-rice-and-cooked-meat-1624487.jpg);
+    background-size: contain;
+    font-weight: bolder;
+    font-size: 30px;
+    color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    background-color: aqua;
+    display: block;
+}
+ul li{
+    text-decoration: none;
+}
